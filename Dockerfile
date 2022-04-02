@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER David Personette <dperson@gmail.com>
+LABEL maintainer="David Personette <dperson@gmail.com>"
 
 # Install samba
 RUN apk --no-cache --no-progress upgrade && \
